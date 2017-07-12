@@ -1,0 +1,1 @@
+ select convert(datetime, floor(convert(float(24), getdate())))

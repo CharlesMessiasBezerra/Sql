@@ -1,0 +1,1 @@
+sp_CR_lst_Acompanhamento @dte_Xml = '<ArrayOfString><string>10/15/2010</string><string>4/15/2014</string></ArrayOfString>', @int_IdEmpresa  = null, @str_IdItem  = null, @int_IdMarca = null, @str_CodMedico = null, @int_IdTipoMovimento = null
