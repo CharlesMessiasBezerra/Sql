@@ -1,0 +1,20 @@
+CREATE TABLE Bairro
+(
+	pk_intCod INT NOT NULL IDENTITY,
+	strNOME VARCHAR(40),
+	strcep char(20)
+
+	CONSTRAINT CHAVE_PRIMARIA_bairro PRIMARY KEY(pk_intCod),
+)
+
+CREATE TABLE Cliente
+(
+	pk_intCod INT NOT NULL IDENTITY,
+	fk_intBairro INT ,
+	strNOME VARCHAR(40),
+	intIdade int,
+	strSexo char(1)
+
+	CONSTRAINT CHAVE_PRIMARIA_CLIENTE PRIMARY KEY(pk_intCod),
+	CONSTRAINT CHAVE_ESTRANGEIRA_BAIRRO FOREIGN KEY(fk_intBairro)REFERENCES Bairro(pk_intCod)
+)
