@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="sql" title="sql" src=".github/sql.png" />
+    <img alt="sql" title="sql" src=".github/sql.jpg" />
 </h1>
 
 <p align="center">
